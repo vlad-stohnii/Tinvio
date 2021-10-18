@@ -57,15 +57,13 @@
   color: #21272e;
 }
 
-@media (min-width: 1280px) {
-}
 @media (max-width: 1279px) {
   .communication__push-img {
     width: 468px;
   }
 }
 @media (max-width: 1023px) {
-  .comm-right {
+  .communication__right {
     text-align: center;
   }
   .communication__content {
