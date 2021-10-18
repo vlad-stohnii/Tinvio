@@ -1,0 +1,246 @@
+.title {
+  text-align: center;
+  background-color: #fcfdff;
+  padding-top: 115px;
+  padding-bottom: 180px;
+}
+
+.title__header {
+  max-width: 812px;
+  margin: 16px auto;
+}
+
+.title__button {
+  position: relative;
+  margin-top: 50px;
+  color: #ffffff;
+  height: 52px;
+  width: 214px;
+  border-radius: 8px;
+  border: none;
+  background-image: linear-gradient(104deg, #ff474d, #fa4353);
+  box-shadow: 0px 17px 27px -14px rgba(34, 60, 80, 0.5);
+}
+
+.title__paragraph {
+  font-size: 12px;
+  font-weight: 500;
+  color: #909599;
+  padding-top: 16px;
+}
+
+
+
+/* IMAGES */
+
+.title img {
+  filter: drop-shadow(-6px 8px 3px rgba(1, 2, 3, 0.3));
+}
+
+.banana {
+  position: absolute;
+  top: 112px;
+  right: 128px;
+  width: 118px;
+  height: 90px;
+}
+
+.dill {
+  position: absolute;
+  top: 190px;
+  right: 125px;
+  width: 76px;
+  height: 62px;
+}
+
+.pepper {
+  background-image: url("../img/pepper.png");
+  background-size: 134px 104px;
+  position: absolute;
+  top: 276px;
+  right: 84px;
+  width: 134px;
+  height: 104px;
+  filter: drop-shadow(-6px 8px 3px rgba(1, 2, 3, 0.3));
+}
+
+.beans {
+  position: absolute;
+  top: 228px;
+  right: 26px;
+  width: 60px;
+  height: 150px;
+}
+
+.olives {
+  position: absolute;
+  top: 127px;
+  right: 0;
+  width: 72px;
+  height: 60px;
+}
+
+.basil {
+  position: absolute;
+  top: 408px;
+  right: 148px;
+  width: 80px;
+  height: 36px;
+}
+.corn {
+  background-image: url("../img/corn.png");
+  background-size: 144px 152px;
+  position: absolute;
+  top: 406px;
+  right: 0;
+  width: 144px;
+  height: 152px;
+  filter: drop-shadow(-6px 8px 3px rgba(1, 2, 3, 0.3));
+}
+
+.champignon {
+  position: absolute;
+  top: 502px;
+  right: 190px;
+  width: 55px;
+  height: 55px;
+}
+
+.gift-wrap-box {
+  position: absolute;
+  top: 440px;
+  left: 190px;
+  width: 80px;
+  height: 90px;
+}
+
+.paper-box {
+  position: absolute;
+  top: 306px;
+  left: 118px;
+  width: 78px;
+  height: 100px;
+}
+
+.glitter-pack {
+  position: absolute;
+  top: 124px;
+  left: 112px;
+  width: 76px;
+  height: 102px;
+}
+.dark-box {
+  position: absolute;
+  top: 194px;
+  left: 0;
+  width: 94px;
+  height: 164px;
+}
+
+.box {
+  position: absolute;
+  top: 442px;
+  left: 0;
+  width: 120px;
+  height: 184px;
+}
+@media (min-width: 1280px) {
+  .dark-box,
+  .olives,
+  .beans {
+    display: block;
+  }
+}
+@media (max-width: 1279px) {
+  .dark-box,
+  .olives,
+  .beans {
+    display: none;
+  }
+  .paper-box,
+  .box,
+  .gift-wrap-box {
+    margin-left: -100px;
+  }
+  .glitter-pack {
+    margin-left: -68px;
+  }
+  .corn {
+    width: 56px;
+    right: 0;
+  }
+  .banana,
+  .dill,
+  .pepper,
+  .basil,
+  .champignon {
+    margin-right: -82px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .corn {
+    width: 40px;
+    right: 0;
+  }
+  .box {
+    display: none;
+  }
+  .paper-box,
+  .gift-wrap-box {
+    margin-left: -136px;
+  }
+  .glitter-pack {
+    margin-left: -90px;
+  }
+  .banana,
+  .dill,
+  .pepper,
+  .basil,
+  .champignon {
+    margin-right: -104px;
+  }
+  .pepper {
+    right: 104px;
+    width: 114px;
+  }
+}
+@media (max-width: 767px) {
+  .title {
+    padding-top: 44px;
+    padding-bottom: 743px;
+  }
+  .title__header {
+    font-size: 28px;
+    max-width: 340px;
+  }
+  .dark-box,
+  .box {
+    display: block;
+  }
+  .item {
+    margin-top: 400px;
+  }
+  .dark-box {
+    top: 184px;
+    left: -48px;
+  }
+  .paper-box,
+  .glitter-pack {
+    left: 184px;
+  }
+  .gift-wrap-box {
+    left: 254px;
+  }
+  .box {
+    left: 48px;
+  }
+  .pepper,
+  .banana,
+  .dill,
+  .basil,
+  .corn,
+  .champignon {
+    margin-top: 470px;
+  }
+}

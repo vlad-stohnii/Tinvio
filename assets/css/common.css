@@ -1,0 +1,31 @@
+.content {
+  margin: 0 auto;
+  max-width: 1128px;
+}
+.content-max {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.red-text {
+  font-size: 13px;
+  color: #f43939;
+  font-weight: bold;
+}
+
+.header-1 {
+  color: #21272e;
+  font-size: 40px;
+}
+
+.header-2 {
+  color: #21272e;
+  font-size: 32px;
+}
+
+.grey-paragraph {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.67;
+  color: #787c80;
+}

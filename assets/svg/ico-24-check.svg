@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56">
+    <defs>
+        <filter id="0nzorvnqla" width="105%" height="109.2%" x="-2.6%" y="-4.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" font-family="LastResort, .LastResort" font-size="48.79" opacity=".3">
+        <g fill="#79ADA4">
+            <g>
+                <g>
+                    <g filter="url(#0nzorvnqla)" transform="translate(-1025 -1826) translate(533 1597) translate(-25 46) translate(173)">
+                        <g>
+                            <g>
+                                <g>
+                                    <text transform="translate(0 34) translate(223.697 132.372) translate(121.256 14.72)">
+                                        <tspan x="1.044" y="41.827">􀇺</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
