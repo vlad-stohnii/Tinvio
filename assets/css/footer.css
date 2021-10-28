@@ -24,6 +24,7 @@ ul li,
 }
 .footer__logo {
   position: relative;
+  z-index: 1;
 }
 .footer__logo img {
   width: 120px;

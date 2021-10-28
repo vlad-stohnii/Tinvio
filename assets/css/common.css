@@ -16,11 +16,13 @@
 .header-1 {
   color: #21272e;
   font-size: 40px;
+  padding: 0 14px;
 }
 
 .header-2 {
   color: #21272e;
   font-size: 32px;
+  padding: 0 14px;
 }
 
 .grey-paragraph {
@@ -28,4 +30,5 @@
   font-weight: 600;
   line-height: 1.67;
   color: #787c80;
+  padding: 0 10px;
 }
